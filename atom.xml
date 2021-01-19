@@ -1,26 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://aaronxuke.github.io</id>
-    <title>keyu</title>
-    <updated>2021-01-19T13:25:34.353Z</updated>
+    <title>private blog</title>
+    <updated>2021-01-19T15:14:14.233Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://aaronxuke.github.io"/>
     <link rel="self" href="https://aaronxuke.github.io/atom.xml"/>
-    <subtitle>温故而知新</subtitle>
+    <subtitle>人间忽晚，山河已秋。</subtitle>
     <logo>https://aaronxuke.github.io/images/avatar.png</logo>
     <icon>https://aaronxuke.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2021, keyu</rights>
+    <rights>All rights reserved 2021, private blog</rights>
     <entry>
-        <title type="html"><![CDATA[tst jpg]]></title>
-        <id>https://aaronxuke.github.io/post/tst-jpg/</id>
-        <link href="https://aaronxuke.github.io/post/tst-jpg/">
+        <title type="html"><![CDATA[今日建博客]]></title>
+        <id>https://aaronxuke.github.io/post/jin-ri-jian-bo-ke/</id>
+        <link href="https://aaronxuke.github.io/post/jin-ri-jian-bo-ke/">
         </link>
-        <updated>2021-01-19T13:21:51.000Z</updated>
-        <content type="html"><![CDATA[<p><img src="https://aaronxuke.github.io/post-images/1611062532951.jpg" alt="" loading="lazy"><br>
-保护<br>
-保护<br>
-文档<br>
-测试一下</p>
+        <updated>2021-01-19T15:12:11.000Z</updated>
+        <content type="html"><![CDATA[<p>码了几个小时，也挺有意思，天色已晚，今日工作结束<br>
+今天看了一节教资，做了做博客<br>
+明天继续，今天有点累了<br>
+加油，打工人</p>
 ]]></content>
     </entry>
     <entry>
@@ -28,10 +27,9 @@
         <id>https://aaronxuke.github.io/post/tai-yang/</id>
         <link href="https://aaronxuke.github.io/post/tai-yang/">
         </link>
-        <updated>2021-01-19T11:17:36.000Z</updated>
-        <content type="html"><![CDATA[<pre><code>   你总感到落寞沮丧
-</code></pre>
-<p>你总感到失望<br>
+        <updated>2021-01-19T14:46:50.000Z</updated>
+        <content type="html"><![CDATA[<p>你总感到落寞沮丧<br>
+　　你总感到失望<br>
 　　对于人生未来总有太多 迷惘<br>
 　　你总伪装自己不痛<br>
 　　你总笑着逞强<br>
