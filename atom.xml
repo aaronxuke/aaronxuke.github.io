@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://aaronxuke.github.io</id>
     <title>private blog</title>
-    <updated>2021-01-20T04:06:31.111Z</updated>
+    <updated>2021-01-20T04:14:59.775Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://aaronxuke.github.io"/>
     <link rel="self" href="https://aaronxuke.github.io/atom.xml"/>
@@ -11,15 +11,26 @@
     <icon>https://aaronxuke.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, private blog</rights>
     <entry>
-        <title type="html"><![CDATA[今日建博客]]></title>
-        <id>https://aaronxuke.github.io/post/jin-ri-jian-bo-ke/</id>
-        <link href="https://aaronxuke.github.io/post/jin-ri-jian-bo-ke/">
+        <title type="html"><![CDATA[古风诗词]]></title>
+        <id>https://aaronxuke.github.io/post/gu-feng-shi-ci/</id>
+        <link href="https://aaronxuke.github.io/post/gu-feng-shi-ci/">
         </link>
-        <updated>2021-01-19T15:12:11.000Z</updated>
-        <content type="html"><![CDATA[<p>码了几个小时，也挺有意思，天色已晚，今日工作结束<br>
-今天看了一节教资，做了做博客<br>
-明天继续，今天有点累了<br>
-加油，打工人</p>
+        <updated>2021-01-20T04:14:03.000Z</updated>
+        <content type="html"><![CDATA[<p>1、执于一念，将受困于一念；一念放下，会自在于心间。<br>
+2、烟雨红尘，点点离人泪，拂不尽心事多如烟雨，叹不完情缘杂如红尘。<br>
+3、一声珍重梦一生，二人缘灭羡二鸿，三行情书输三生。<br>
+4、你要记得，那年那月，垂柳紫陌洛城东。<br>
+5、你看这春风过尽了，桃花也落尽了。我还唱着这断续的歌。<br>
+6、千与千寻千般苦，一生一世一双人。<br>
+7、梦一场她起弦风雅，奏一段白首韶华，雪纷纷下，葬了千层塔，似镜中月华，他不知真假。<br>
+8、山中何事，松花酿酒，春水煎茶。<br>
+9、你说十里红妆，盛世烟花；后来一等经年，为候竹马。<br>
+10、一念花开，一念花落，这山长水远的人世，终究是要自己走下去。<br>
+11、长安旧梦深巷里，朱墙粉饰能几时。浮絮残叶水荡涤，冷暖沉浮唯自知。<br>
+12、人世浮夸轻似雪，三宵九载落梅欢。若得半日听棋闲，今朝笑看风云劫。<br>
+13、天亮了，照亮了泪光；泪干了，枕边的仿徨。天凉了，凉尽了天荒；地老了，人间的沧桑。<br>
+14、无端坠入红尘梦，惹却三千烦恼丝。<br>
+15、如果可以，青灯古佛，一世安好，不问世俗。</p>
 ]]></content>
     </entry>
     <entry>
