@@ -78,7 +78,7 @@
         
         <li class="nav-item">
           <div class="gridea-search-container">
-            <form id="gridea-search-form" style="position: relative" data-update="1611104810226"
+            <form id="gridea-search-form" style="position: relative" data-update="1611115387336"
               action="/search/index.html">
               <input class="search-input" autocomplete="off" spellcheck="false" name="q" placeholder="搜索文章" />
               <i class="fas fa-search gt-c-content-color-first" style="position: absolute; top: 9px; left: 10px;"></i>
@@ -128,7 +128,7 @@
         
         <li class="nav-item">
           <div class="gridea-search-container">
-            <form id="gridea-search-form" style="position: relative" data-update="1611104810226"
+            <form id="gridea-search-form" style="position: relative" data-update="1611115387336"
               action="/search/index.html">
               <input class="search-input" autocomplete="off" spellcheck="false" name="q" placeholder="搜索文章" />
               <i class="fas fa-search gt-c-content-color-first" style="position: absolute; top: 9px; left: 10px;"></i>
@@ -208,41 +208,28 @@
           
           <div class="comment" style="text-align: center;">
             
-            <span id="/post/hello-gridea/" class="leancloud_visitors"
-              data-flag-title="Hello Gridea">
-              <em class="post-meta-item-text">阅读量 </em>
-              <i class="leancloud-visitors-count">loading...</i>
-            </span>
-            
 
             
             
-            <script src='https://cdn.jsdelivr.net/npm/valine/dist/Valine.min.js'></script>
-
-<style>
-	div#vcomments{
-		width:100%;
-		max-width: 1000px;
-		padding: 2.5%
-	}
-</style>
-
-
-	<div id="vcomments"></div>
-
+            <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+<div id="gitalk-container"></div>
 <script>
-	new Valine({
-		el: '#vcomments',
-		appId: '',
-		appKey: '',
-		avatar: '',
-		pageSize: 5,
-		recordIp: true,
-		placeholder: 'Just Go Go',
-		visitor: true,
-	});
+  var gitalk = new Gitalk({
+    clientID: '35ac330741d12e5270c8',
+    clientSecret: '66b0aa3f8faaf6df0d901a0c29c76bb08faa92ab',
+    repo: 'pinglunshuju',
+    owner: '',
+    admin: [''],
+    id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+    distractionFreeMode: false  // Facebook-like distraction free mode
+  })
+  gitalk.render('gitalk-container')
 </script>
 
+            
+            
+            
             
           </div>
         </div>
@@ -270,6 +257,15 @@
               
             
               
+            
+            <li class="list-inline-item">
+              <a href="https://www.zhihu.com/people/zhi-jian-de-fan-hua" target="_blank">
+                <span class="fa-stack fa-lg">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-zhihu fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
             
               
             
