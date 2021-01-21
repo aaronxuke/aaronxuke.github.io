@@ -1,110 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://aaronxuke.github.io</id>
-    <title>private blog</title>
-    <updated>2021-01-20T15:06:00.243Z</updated>
+    <title>碎碎念 blog</title>
+    <updated>2021-01-21T12:07:11.953Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://aaronxuke.github.io"/>
     <link rel="self" href="https://aaronxuke.github.io/atom.xml"/>
     <subtitle>人间忽晚，山河已秋。</subtitle>
     <logo>https://aaronxuke.github.io/images/avatar.png</logo>
     <icon>https://aaronxuke.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2021, private blog</rights>
-    <entry>
-        <title type="html"><![CDATA[古风诗词]]></title>
-        <id>https://aaronxuke.github.io/post/gu-feng-shi-ci/</id>
-        <link href="https://aaronxuke.github.io/post/gu-feng-shi-ci/">
-        </link>
-        <updated>2021-01-20T04:14:03.000Z</updated>
-        <content type="html"><![CDATA[<p>1、执于一念，将受困于一念；一念放下，会自在于心间。<br>
-2、烟雨红尘，点点离人泪，拂不尽心事多如烟雨，叹不完情缘杂如红尘。<br>
-3、一声珍重梦一生，二人缘灭羡二鸿，三行情书输三生。<br>
-4、你要记得，那年那月，垂柳紫陌洛城东。<br>
-5、你看这春风过尽了，桃花也落尽了。我还唱着这断续的歌。<br>
-6、千与千寻千般苦，一生一世一双人。<br>
-7、梦一场她起弦风雅，奏一段白首韶华，雪纷纷下，葬了千层塔，似镜中月华，他不知真假。<br>
-8、山中何事，松花酿酒，春水煎茶。<br>
-9、你说十里红妆，盛世烟花；后来一等经年，为候竹马。<br>
-10、一念花开，一念花落，这山长水远的人世，终究是要自己走下去。<br>
-11、长安旧梦深巷里，朱墙粉饰能几时。浮絮残叶水荡涤，冷暖沉浮唯自知。<br>
-12、人世浮夸轻似雪，三宵九载落梅欢。若得半日听棋闲，今朝笑看风云劫。<br>
-13、天亮了，照亮了泪光；泪干了，枕边的仿徨。天凉了，凉尽了天荒；地老了，人间的沧桑。<br>
-14、无端坠入红尘梦，惹却三千烦恼丝。<br>
-15、如果可以，青灯古佛，一世安好，不问世俗。</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[太阳]]></title>
-        <id>https://aaronxuke.github.io/post/tai-yang/</id>
-        <link href="https://aaronxuke.github.io/post/tai-yang/">
-        </link>
-        <updated>2021-01-19T14:46:50.000Z</updated>
-        <content type="html"><![CDATA[<pre><code>你总感到落寞沮丧
-</code></pre>
-<p>你总感到失望<br>
-　　对于人生未来总有太多 迷惘<br>
-　　你总伪装自己不痛<br>
-　　你总笑着逞强<br>
-　　对于爱情害怕触碰<br>
-　　放弃挣扎<br>
-　　你看着我眼睛<br>
-　　你记着我声音<br>
-　　无畏风雨<br>
-　　别忘记还有我站在这里<br>
-　　我只想做你的太阳<br>
-　　你的太阳<br>
-　　在你的心里呀<br>
-　　在你的心底呀<br>
-　　不管是多远的远方<br>
-　　不要害怕我在身旁<br>
-　　想做你的太阳<br>
-　　你的太阳<br>
-　　在你的心里呀<br>
-　　在你的心底呀<br>
-　　就算不能在你身旁<br>
-　　也要奋力为你而 发光<br>
-　　你总感到落寞沮丧<br>
-　　你总感到失望<br>
-　　对于人生未来<br>
-　　总有太多 迷惘<br>
-　　你总伪装自己不痛<br>
-　　你总笑着逞强<br>
-　　对于爱情害怕触碰<br>
-　　放弃挣扎<br>
-　　你看着我眼睛<br>
-　　你记着我声音啊<br>
-　　无畏风雨<br>
-　　别忘记还有我站在这里<br>
-　　我只想做你的太阳<br>
-　　你的太阳<br>
-　　在你的心里呀<br>
-　　在你的心底呀<br>
-　　不管是多远的远方<br>
-　　不要害怕我在身旁<br>
-　　想做你的太阳<br>
-　　你的太阳<br>
-　　在你的心里呀<br>
-　　在你的心底呀<br>
-　　就算不能在你身旁<br>
-　　也要奋力为你而 发光<br>
-　　也许有一天你不再记得我<br>
-　　关于我们之间所有的所有<br>
-　　没关系 只要你幸福就够<br>
-　　我只想做你的太阳<br>
-　　你的太阳<br>
-　　在你的心里呀<br>
-　　在你的心底呀<br>
-　　不管是多远的远方<br>
-　　不要害怕我在身旁<br>
-　　想做你的太阳<br>
-　　你的太阳<br>
-　　在你的心里呀<br>
-　　在你的心底呀<br>
-　　就算不能在你身旁<br>
-　　我也要奋力为你而<br>
-　　发光</p>
-]]></content>
-    </entry>
+    <rights>All rights reserved 2021, 碎碎念 blog</rights>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
         <id>https://aaronxuke.github.io/post/hello-gridea/</id>
