@@ -10,14 +10,14 @@
 <meta name="keywords" content="">
 <meta name="description" content="欢迎访问[雨神 blog]的个人博客">
 <meta name="author" content="kveln">
-<title>标签列表 | 雨神 blog</title>
+<title>blog搭建 | 雨神 blog</title>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/css/bootstrap.min.css">
 <link href="https://cdn.bootcss.com/font-awesome/5.11.2/css/all.min.css" rel="stylesheet">
 <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
 <link
   href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800'
   rel='stylesheet' type='text/css'>
-<link rel="alternate" type="application/rss+xml" title="标签列表 | 雨神 blog » Feed"
+<link rel="alternate" type="application/rss+xml" title="blog搭建 | 雨神 blog » Feed"
   href="https://aaronxuke.github.io/atom.xml">
 <link rel="stylesheet"
   href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.15.10/build/styles/androidstudio.min.css">
@@ -30,34 +30,6 @@
 
 <script>hljs.initHighlightingOnLoad();</script>
 
-<span id="momk"></span><span id="momk" style="color: #ff0000;"></span>
-<script type="text/javascript">
-function NewDate(str) {
-str = str.split('-');
-var date = new Date();
-date.setUTCFullYear(str[0], str[1] - 1, str[2]);
-date.setUTCHours(0, 0, 0, 0);
-return date;
-}
-function momxc() {
-var birthDay =NewDate("2021-1-6");
-var today=new Date();
-var timeold=today.getTime()-birthDay.getTime();
-var sectimeold=timeold/1000
-var secondsold=Math.floor(sectimeold);
-var msPerDay=24*60*60*1000; var e_daysold=timeold/msPerDay;
-var daysold=Math.floor(e_daysold);
-var e_hrsold=(daysold-e_daysold)*-24;
-var hrsold=Math.floor(e_hrsold);
-var e_minsold=(hrsold-e_hrsold)*-60;
-var minsold=Math.floor((hrsold-e_hrsold)*-60); var seconds=Math.floor((minsold-e_minsold)*-60).toString();
-document.getElementById("momk").innerHTML = "本站已安全运行"+daysold+"天"+hrsold+"小时"+minsold+"分"+seconds+"秒";
-setTimeout(momxc, 1000);
-}momxc();
-</script>  <style>
-#momk{animation:change 10s infinite;font-weight:800; }
-@keyframes change{0%{color:#5cb85c;}25%{color:#556bd8;}50%{color:#e40707;}75%{color:#66e616;}100% {color:#67bd31;}}
-</style>
 </head>
 
 <body>
@@ -120,7 +92,7 @@ setTimeout(momxc, 1000);
           
             <!-- 其他页面（archives、tags、about...）Header -->
             <div class="sub-site-heading">
-              <h1 class="tag-tl">Tags</h1>
+              <h1 class="tag-tl">#blog搭建</h1>
             </div>
           
         
@@ -129,24 +101,59 @@ setTimeout(momxc, 1000);
   </div>
 </header>
   <div class="container">
-    <div class="row">
-      <div class="col-lg-8 col-md-10 mx-auto">
-        
-        <div class="post-preview tag-list">
-          <a href="https://aaronxuke.github.io/tag/UE_JHBf-s/" class="tag">
+  <div class="row">
+    <div class="col-lg-8 col-md-10 mx-auto">
+      
+      <!-- 每行的总容器 -->
+      <div class="post-row-container">
+        <!-- 第0层；标题 -->
+        <div class="title-floor">
+          <div class="post-title-container">
+            
+            <span class="sticky-top-flag gt-bg-accent-color-first">置顶</span>
+            
+            <a href="https://aaronxuke.github.io/post/wan-quan-xiao-bai-jiao-cheng-shi-yong-github-pages-he-gridea-da-jian-ge-ren-bo-ke/">
+              <h2 class="post-title">
+                完全小白教程：使用Github Pages和Gridea搭建个人博客 
+              </h2>
+            </a>
+          </div>
+        </div>
+        <!-- 第一层：包含文章描述、时间信息、封面图 -->
+        <div class="post-row-first-floor">
+          <div class="post-preview">
+            <h3 class="post-subtitle">
+              
+            </h3>
+            <p class="post-meta">
+              <span class="time">2021-01-31</span>
+              <span>,</span>
+              <span class="post-stats">1 min read</span>
+            </p>
+          </div>
+          
+          <a href="https://aaronxuke.github.io/post/wan-quan-xiao-bai-jiao-cheng-shi-yong-github-pages-he-gridea-da-jian-ge-ren-bo-ke/" class="post-feature-image" style="background-image: url('https://pic2.zhimg.com/v2-fccdcf1f6e8a31fc59da10690b6237fc_r.jpg')">
+          </a>
+          
+        </div>
+        <!-- 第二层：下划线、占位标签、tags -->
+        <div class="post-row-sec-floor">
+          <hr>
+          <div class="clearfix"></div>
+          
+          <a href="https://aaronxuke.github.io/tag/UE_JHBf-s/" class="post-tag">
             blog搭建
           </a>
+          
         </div>
-        
-        <div class="post-preview tag-list">
-          <a href="https://aaronxuke.github.io/tag/rHGf4Hwx0/" class="tag">
-            Gridea
-          </a>
-        </div>
-        
       </div>
+      </>
+      
+      <!-- 
+       -->
     </div>
   </div>
+</div>
   <!-- Footer -->
   <footer>
     <div class="container">
