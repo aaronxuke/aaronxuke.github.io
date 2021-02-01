@@ -10,14 +10,14 @@
 <meta name="keywords" content="">
 <meta name="description" content="欢迎访问[雨神 blog]的个人博客">
 <meta name="author" content="kveln">
-<title>关于 | 雨神 blog</title>
+<title>日常生活 | 雨神 blog</title>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/css/bootstrap.min.css">
 <link href="https://cdn.bootcss.com/font-awesome/5.11.2/css/all.min.css" rel="stylesheet">
 <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
 <link
   href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800'
   rel='stylesheet' type='text/css'>
-<link rel="alternate" type="application/rss+xml" title="关于 | 雨神 blog » Feed"
+<link rel="alternate" type="application/rss+xml" title="日常生活 | 雨神 blog » Feed"
   href="https://aaronxuke.github.io/atom.xml">
 <link rel="stylesheet"
   href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.15.10/build/styles/androidstudio.min.css">
@@ -30,94 +30,9 @@
 
 <script>hljs.initHighlightingOnLoad();</script>
 
-  <meta property="og:description" content="关于" />
-  <meta property="og:url" content="https://aaronxuke.github.io/post/about/" />
-  <meta property="og:locale" content="zh-CN" />
-  <meta property="og:type" content="website" />
-  <meta property="og:site_name" content="雨神 blog" />
-  <!-- <script src="../assets/styles/scripts/tocScript.js"></script> -->
-<span id="momk"></span><span id="momk" style="color: #ff0000;"></span>
-<script type="text/javascript">
-function NewDate(str) {
-str = str.split('-');
-var date = new Date();
-date.setUTCFullYear(str[0], str[1] - 1, str[2]);
-date.setUTCHours(0, 0, 0, 0);
-return date;
-}
-function momxc() {
-var birthDay =NewDate("2021-1-6");
-var today=new Date();
-var timeold=today.getTime()-birthDay.getTime();
-var sectimeold=timeold/1000
-var secondsold=Math.floor(sectimeold);
-var msPerDay=24*60*60*1000; var e_daysold=timeold/msPerDay;
-var daysold=Math.floor(e_daysold);
-var e_hrsold=(daysold-e_daysold)*-24;
-var hrsold=Math.floor(e_hrsold);
-var e_minsold=(hrsold-e_hrsold)*-60;
-var minsold=Math.floor((hrsold-e_hrsold)*-60); var seconds=Math.floor((minsold-e_minsold)*-60).toString();
-document.getElementById("momk").innerHTML = "本站已安全运行"+daysold+"天"+hrsold+"小时"+minsold+"分"+seconds+"秒";
-setTimeout(momxc, 1000);
-}momxc();
-</script>  <style>
-#momk{animation:change 10s infinite;font-weight:800; }
-@keyframes change{0%{color:#5cb85c;}25%{color:#556bd8;}50%{color:#e40707;}75%{color:#66e616;}100% {color:#67bd31;}}
-</style>
 </head>
 
 <body>
-  <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-  <div class="container">
-    <a class="navbar-brand" href="https://aaronxuke.github.io">雨神 blog</a>
-    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
-      data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
-      aria-label="Toggle navigation">
-      Menu
-      <i class="fas fa-bars"></i>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarResponsive">
-      <ul class="navbar-nav ml-auto">
-        
-        <li class="nav-item">
-          
-          <a class="nav-link" href="/">首页</a>
-          
-        </li>
-        
-        <li class="nav-item">
-          
-          <a class="nav-link" href="/archives">归档</a>
-          
-        </li>
-        
-        <li class="nav-item">
-          
-          <a class="nav-link" href="/tags">标签</a>
-          
-        </li>
-        
-        <li class="nav-item">
-          
-          <a class="nav-link" href="/post/about">关于</a>
-          
-        </li>
-        
-        <li class="nav-item">
-          <div class="gridea-search-container">
-            <form id="gridea-search-form" style="position: relative" data-update="1612185552688"
-              action="/search/index.html">
-              <input class="search-input" autocomplete="off" spellcheck="false" name="q" placeholder="搜索文章" />
-              <i class="fas fa-search gt-c-content-color-first" style="position: absolute; top: 9px; left: 10px;"></i>
-            </form>
-          </div>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
-  <!-- Page Header -->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
   <div class="container">
     <a class="navbar-brand" href="https://aaronxuke.github.io">雨神 blog</a>
@@ -175,16 +90,9 @@ setTimeout(momxc, 1000);
         
           <!-- 没Title为其他页面Header -->
           
-            <!-- 没Title并且有headerType为Post：文章Header -->
-            <div class="post-heading">
-              <span class="tags">
-                
-              </span>
-              <h1>关于</h1>
-              <span class="meta">
-                Posted on
-                2019-01-25，1 min read
-              </span>
+            <!-- 其他页面（archives、tags、about...）Header -->
+            <div class="sub-site-heading">
+              <h1 class="tag-tl">#日常生活</h1>
             </div>
           
         
@@ -192,56 +100,63 @@ setTimeout(momxc, 1000);
     </div>
   </div>
 </header>
-  <!-- Post Content -->
-  <article id="post-content-article">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 col-md-10 mx-auto post-content-container">
-          
-          <blockquote>
-<p>欢迎来到我的小站呀，很高兴遇见你！🤝</p>
-</blockquote>
-<!-- more -->
-<figure data-type="image" tabindex="1"><img src="https://aaronxuke.github.io/post-images/1611230882291.jpg" alt="" loading="lazy"></figure>
-<!-- more -->
-<!-- more -->
-<blockquote>
-<p>关于本站########个人博客<br>
-个人描述########记录日常<br>
-联系方式########aaronxuke@gmail.com</p>
-</blockquote>
-
-          <div class="toc-container"></div>
-          
-          <div class="comment" style="text-align: center;">
+  <div class="container">
+  <div class="row">
+    <div class="col-lg-8 col-md-10 mx-auto">
+      
+      <!-- 每行的总容器 -->
+      <div class="post-row-container">
+        <!-- 第0层；标题 -->
+        <div class="title-floor">
+          <div class="post-title-container">
             
-
-            
-            
-            <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
-<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
-<div id="gitalk-container"></div>
-<script>
-  var gitalk = new Gitalk({
-    clientID: '35ac330741d12e5270c8',
-    clientSecret: '66b0aa3f8faaf6df0d901a0c29c76bb08faa92ab',
-    repo: 'pinglunshuju',
-    owner: 'aaronxuke',
-    admin: ['aaronxuke'],
-    id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
-    distractionFreeMode: false  // Facebook-like distraction free mode
-  })
-  gitalk.render('gitalk-container')
-</script>
-
-            
-            
-            
-            
+            <a href="https://aaronxuke.github.io/post/jin-ri-zuo-de-shi/">
+              <h2 class="post-title">
+                今日做的事
+              </h2>
+            </a>
           </div>
         </div>
+        <!-- 第一层：包含文章描述、时间信息、封面图 -->
+        <div class="post-row-first-floor">
+          <div class="post-preview">
+            <h3 class="post-subtitle">
+              <p>#今天是2月的第一天<br>
+状态一般般哦</p>
+<hr>
+<p><code>距离成绩公布又近了一天</code><br>
+今天完成的事：<br>
+1.教资概率论看了一节<br>
+2.周报，导师指导记录完成<br>
+3.把pr又重装了一遍</p>
+
+            </h3>
+            <p class="post-meta">
+              <span class="time">2021-02-01</span>
+              <span>,</span>
+              <span class="post-stats">1 min read</span>
+            </p>
+          </div>
+          
+        </div>
+        <!-- 第二层：下划线、占位标签、tags -->
+        <div class="post-row-sec-floor">
+          <hr>
+          <div class="clearfix"></div>
+          
+          <a href="https://aaronxuke.github.io/tag/o59As-7ix/" class="post-tag">
+            日常生活
+          </a>
+          
+        </div>
       </div>
-  </article>
+      </>
+      
+      <!-- 
+       -->
+    </div>
+  </div>
+</div>
   <!-- Footer -->
   <footer>
     <div class="container">
@@ -330,8 +245,6 @@ setTimeout(momxc, 1000);
     }
   })(this));</script>
   
-  <script src="https://aaronxuke.github.io/media/scripts/tocScript.js"></script>
-
 </body>
 
 </html>

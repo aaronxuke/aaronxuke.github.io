@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://aaronxuke.github.io</id>
     <title>雨神 blog</title>
-    <updated>2021-01-31T10:53:15.126Z</updated>
+    <updated>2021-02-01T13:19:15.424Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://aaronxuke.github.io"/>
     <link rel="self" href="https://aaronxuke.github.io/atom.xml"/>
@@ -10,6 +10,100 @@
     <logo>https://aaronxuke.github.io/images/avatar.png</logo>
     <icon>https://aaronxuke.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, 雨神 blog</rights>
+    <entry>
+        <title type="html"><![CDATA[今日做的事]]></title>
+        <id>https://aaronxuke.github.io/post/jin-ri-zuo-de-shi/</id>
+        <link href="https://aaronxuke.github.io/post/jin-ri-zuo-de-shi/">
+        </link>
+        <updated>2021-02-01T13:19:09.000Z</updated>
+        <summary type="html"><![CDATA[<p>#今天是2月的第一天<br>
+状态一般般哦</p>
+<hr>
+<p><code>距离成绩公布又近了一天</code><br>
+今天完成的事：<br>
+1.教资概率论看了一节<br>
+2.周报，导师指导记录完成<br>
+3.把pr又重装了一遍</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>#今天是2月的第一天<br>
+状态一般般哦</p>
+<hr>
+<p><code>距离成绩公布又近了一天</code><br>
+今天完成的事：<br>
+1.教资概率论看了一节<br>
+2.周报，导师指导记录完成<br>
+3.把pr又重装了一遍</p>
+<!-- more -->
+<p>其实建网站不是最大的难题，每天写才是最难的</p>
+<!-- more -->
+<p><code>明天我的单片机一定要开始看了，提前准备吧，我也不知道能不能过线，能做的先做好，减轻开学后的压力，我真的好难。</code></p>
+<!-- more -->
+<p><code>简历也写好了，两手准备，考不上就好好的去上班，其实我不想干~~制造业~~了，做一做教育行业，教资剩最后一门了绝对要拿下，多一条出路</code></p>
+<!-- more -->
+<blockquote>
+<p>希望过线，让我吃研究生的苦吧<br>
+想不了太多，我们能做的是当下，啥事都尽量往前赶</p>
+</blockquote>
+<!-- more -->
+<p><mark>人总是经历了才有故事</mark></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[一款超好用的第三方评论插件--GITALK]]></title>
+        <id>https://aaronxuke.github.io/post/yi-kuan-chao-hao-yong-de-di-san-fang-ping-lun-cha-jian-gitalk/</id>
+        <link href="https://aaronxuke.github.io/post/yi-kuan-chao-hao-yong-de-di-san-fang-ping-lun-cha-jian-gitalk/">
+        </link>
+        <updated>2021-02-01T13:18:26.000Z</updated>
+        <summary type="html"><![CDATA[<p>#具体的使用方法:#<br>
+1.首先需要到GitHub上去新建一个仓库用于存放评论的内容:<br>
+<img src="https://img2018.cnblogs.com/blog/1398504/201906/1398504-20190603214621135-4645962.png" alt="步骤1" loading="lazy"><br>
+2.在设置中打开isue功能：<br>
+<img src="https://img2018.cnblogs.com/blog/1398504/201906/1398504-20190603214740281-1717848181.png" alt="步骤2" loading="lazy"><br>
+3.需要注册一个Github Application具体步骤如下：<br>
+(1)<a href="https://github.com/settings/applications/new">申请地址</a><br>
+<img src="https://img2018.cnblogs.com/blog/1398504/201906/1398504-20190603215257753-1228189734.png" alt="步骤3" loading="lazy"></p>
+]]></summary>
+        <content type="html"><![CDATA[<p>#具体的使用方法:#<br>
+1.首先需要到GitHub上去新建一个仓库用于存放评论的内容:<br>
+<img src="https://img2018.cnblogs.com/blog/1398504/201906/1398504-20190603214621135-4645962.png" alt="步骤1" loading="lazy"><br>
+2.在设置中打开isue功能：<br>
+<img src="https://img2018.cnblogs.com/blog/1398504/201906/1398504-20190603214740281-1717848181.png" alt="步骤2" loading="lazy"><br>
+3.需要注册一个Github Application具体步骤如下：<br>
+(1)<a href="https://github.com/settings/applications/new">申请地址</a><br>
+<img src="https://img2018.cnblogs.com/blog/1398504/201906/1398504-20190603215257753-1228189734.png" alt="步骤3" loading="lazy"></p>
+<!-- more -->
+<p><mark>注意两个URL就是你网站的域名。名字随便写，描述随便写</mark></p>
+<!-- more -->
+<p>(2)完成之后便到了如下页面：<br>
+<img src="https://img2018.cnblogs.com/blog/1398504/201906/1398504-20190603215949392-1943952959.png" alt="步骤4" loading="lazy"><br>
+其中Client ID 和 Client Secret是我们需要的东西</p>
+<p>4.如上步骤完成之后，接下来你就会体验到Gitralk 的方便之处：</p>
+<p>只需要将如下代码引入你想添加评论的 html 或者 jsp 页面中就可以使用了</p>
+<pre><code class="language-&lt;link">&lt;script src=&quot;https://unpkg.com/gitalk@latest/dist/gitalk.min.js&quot;&gt;&lt;/script&gt; 
+
+&lt;div id=&quot;gitalk-container&quot;&gt;&lt;/div&gt;     
+&lt;script type=&quot;text/javascript&quot;&gt;
+    var gitalk = new Gitalk({
+    // gitalk的主要参数
+      clientID: `f8b924888078dee1cXXX`,   //上面获取到的值
+      clientSecret: `7318911d69cddc8932c4b200a4e7c881a9XXX`,//上面获取到的值
+      repo: `PingLunShuJu`,  //您刚才建立仓库的名字
+      owner: 'Tom-shushu',   //你的GitHub用户名字
+      admin: ['Tom-shushu'],  //你的GitHub用户的名字
+      id: 'indow.location.pathname', //id不能重复，如果重复就会把其他页面的评论引进来
+        });
+      gitalk.render('gitalk-container');
+&lt;/script&gt;
+</code></pre>
+<!-- more -->
+<p><mark>注意：第一次进入时评论模块加载不出来，需要注册Github Application的账号登录评论模块后刷新页面，就可以正常使用了。</mark></p>
+<!-- more -->
+<p>我博客的实例展示：<br>
+1.访问我的<a href="https://aaronxuke.github.io/">博客</a><br>
+2.然后随便点击一篇文章进入，底部就会出现评论模块：<br>
+<img src="https://i.loli.net/2021/02/01/g7KzMiTaGpr9md2.png" alt="QQ截图20210201211028.png" loading="lazy"></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[完全小白教程：使用Github Pages和Gridea搭建个人博客 ]]></title>
         <id>https://aaronxuke.github.io/post/wan-quan-xiao-bai-jiao-cheng-shi-yong-github-pages-he-gridea-da-jian-ge-ren-bo-ke/</id>
